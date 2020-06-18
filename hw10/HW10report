@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Q70: B context of static method main is changed in another method (not static) so they will keep their last values.
+Q71: B "ex" inside another catch loop exception named "ex" duplicates terms.
+Q73: B "==" operator gives "false" because bike2 is created with "new" phrase. Contents are the same so "equals" results in "true"
+Q74: E Code compiles but throws ArrayIndexOutOfBounds exception in runtime.
+Q75: C,D,E: Do-while loops may not be converted to for-each loops due to their natural behaviour of running the code inside block once.
+Other loops can be converted by using "length" methods etc.
+Q76: E Code does not compile.
+Q77:   0 objects are available for garbage collector.
+Q78:B If the curly brackets were around while loop indention, answer would be 9.
+import java.time.*;
+class Main {
+  public static void main(String[] args) {
+    int count=0;
+    LocalDate date = LocalDate.of(2017,Month.JANUARY,1);
+    while(date.getMonth()!=Month.APRIL)
+      date=date.minusMonths(1);
+      count++;
+    
+    System.out.println(count);
+  }
+}
