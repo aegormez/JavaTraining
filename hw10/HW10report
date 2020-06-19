@@ -1,3 +1,23 @@
+Q30: E,F: Firstly you should state min and max as static to make static reference to them
+and then you dont have to set min =0 since its default
+Q31: B,E only one right hand side will be evaluated for ternary expressions, 
+an if statement cant have multiple else statements, | and || are different operators
+Q32: C StringBuilder.delete(int,int) method will delete the char at begining point but wont
+delete the char at ending point, if they collide, char wont be deleted(ending point will overcome
+starting point)
+Q33: A method names cannot include characters (-,\,$,%,etc) but _ is ok !
+Q34: A,C Overriding wont change behaviour of other methods in superclass. Also all java classes
+have some family tree which inherits from superclasses or inherited by subclasses. Inheritance doesnt aim 
+to make everything complicate, simpler in reverse.
+Q35: E All true
+Q36: C multiple dimensional arrays in java are different than languages like matlab, in fact
+there is no multi-dimensional arrays in java. there are only arrays that have another arrays
+as their elements. so length method will give the # of elements (even if they are array or single elements)
+Q37: A,B,E a switch statement tests expressions based only on a single integer, enumerated value, or String object.
+Q38: D code will not compile ofc, d is not defined. wtf ?
+Q39: B,C,E valid comment lines are /* ...... */ and //......
+Q40: A,F we should either import all seperately or with using .* but in both case it must be static
+
 Q51: E "for" loop is designed to be downcounting but its written container++, if it was counter-- then code would compile 
 without any exception.
 Q52: A,E,F Addition to A and F, option E is also possible (final main method).
