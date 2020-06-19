@@ -2,11 +2,11 @@ Q51: E "for" loop is designed to be downcounting but its written container++, if
 without any exception.
 Q52: A,E,F Addition to A and F, option E is also possible (final main method).
 Q53: C,D,E for lines 10 and 12 possible loosy conversion
-
-
-
-
-
+Q54: A,B,C lines h1, h2 and h3 do not compile due to reduce of visibility of a mthod defined in interface
+Q55: B,E,F RuntimeException class and its subclasses are unchecked exceptions.
+Q56: F None of the above because it prints "goodbye" and "see you again"
+Q57: B,D are compilable options
+Q58: A It will print "15". Diamond class will affect CarbonStructure class's count with super method.
 
 
 
