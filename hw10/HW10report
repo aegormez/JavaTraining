@@ -7,9 +7,10 @@ Q55: B,E,F RuntimeException class and its subclasses are unchecked exceptions.
 Q56: F None of the above because it prints "goodbye" and "see you again"
 Q57: B,D are compilable options
 Q58: A It will print "15". Diamond class will affect CarbonStructure class's count with super method.
-
-
-
+Q59: C Lines 6 and 8 give compile error (cannot find symbol)
+Q60: A,E General concept is a "try" block must be followed by a catch or finally block or both.
+More than one catch block is possible but the same is not possible for finally blocks.
+Q61: B two integers are added via '+' operator in printing line even if they are followed by a string
 
 Q70: B context of static method main is changed in another method (not static) so they will keep their last values.
 Q71: B "ex" inside another catch loop exception named "ex" duplicates terms.
