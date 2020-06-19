@@ -1,6 +1,7 @@
-
-
-
+Q51: E "for" loop is designed to be downcounting but its written container++, if it was counter-- then code would compile 
+without any exception.
+Q52: A,E,F Addition to A and F, option E is also possible (final main method).
+Q53: C,D,E for lines 10 and 12 possible loosy conversion
 
 
 
