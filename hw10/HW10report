@@ -1,3 +1,4 @@
+Hamdi Sedat raporuma devam edeceğim hazır olduğunda bu yazı kalkmış olacak, kısa süre içinde tekrar kontrol edin
 Q30: E,F: Firstly you should state min and max as static to make static reference to them
 and then you dont have to set min =0 since its default
 Q31: B,E only one right hand side will be evaluated for ternary expressions, 
@@ -17,6 +18,11 @@ Q37: A,B,E a switch statement tests expressions based only on a single integer, 
 Q38: D code will not compile ofc, d is not defined. wtf ?
 Q39: B,C,E valid comment lines are /* ...... */ and //......
 Q40: A,F we should either import all seperately or with using .* but in both case it must be static
+Q41: D it throws some kind of exception due to transformation from array to arraylist
+Q42: A making changes in values or variable types will ruin everything
+Q43: B a typical sorting for numbers are like "0 01 02 1 10 11 13 20" simple logic
+Q44: D if u make a variable public and static it will be avaible from everywhere without creating instance
+
 
 Q51: E "for" loop is designed to be downcounting but its written container++, if it was counter-- then code would compile 
 without any exception.
