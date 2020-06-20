@@ -1,4 +1,43 @@
 Hamdi Sedat raporuma devam edeceğim hazır olduğunda bu yazı kalkmış olacak, kısa süre içinde tekrar kontrol edin
+
+
+
+Q1: E 'sb.indexOf("c")' will return '-1' because there is no 'c' in 'sb'. Index '-1' throws 'IndexOutOfBoundsException'.
+Q2: C,E Correct order is = , +, - , *, /, %, ++,-- . C and E are in this order on their own elements.
+Q3: B, C , F All properties private (use getters/setters)
+Q4: A,E  size() is a method for 'arrayList' its not available with 'arrays'. In the first for loop both loops using lenght of 
+'crossworld' which has lenght of 10. It covers half of whole  '[10][20] array'.
+Q5: B,D We should never catch Errors, there are some exceptions but excepitions doesnt break the rule.
+Q6: A, C ,D In option B 'savana.sand' package was not imported subpackages are not accessible.In option E only 'Bird' class was 
+imported from 'forest' package. In option F 'bonobo' is not a package.
+Q7: C ArrayList mutable but there is an immutableList class. StringBuilder is mutable and the rest is immutable.
+Q8: C 'delete()' method deletes 5 char starting from index 0 and because the builder has a 'lenght' bigger than 'delete()' method gets 
+executed again which leaves builder with only 'wing'.
+Q9: D Neither 'ceiling' or 'floor' is equal to 'wall' because 'ceiling' is in another place in heap and 'floor' is in string pool.
+Q10: C 'lol.toUpperCase()' does not equal to 'lol.toUpperCase()' because 'toUpperCase()' method returns 'new String' object each time with 'return new String(result, 0, len + resultOffset);' code.[10]
+Q11: A,B,C Outer 'do while' does not affect the result in original code once the inner 'do while' finished outer one doesnt meet the condition to do it again already an 'label' can be deleted since they are not referenced anywhere in code.
+Q12: B,C '1234.0' is a double assigning it to a long causes error: incompatible types: possible lossy conversion from double to long and a double cant have 'L' or 'l' suffix for same reason.
+If your code contains numbers with many digits, you can use an underscore character to separate digits in groups of three, similar to how you would use a punctuation mark like a comma, or a space, as a separator.
+Q13: A 'getHour' method 'returns 1' in this case and it doesnt print anything.
+Q14: D The code compiles but throws a 'NullPointerException' at runtime because the array is 'null'.
+Q15: C,E On left side if there is diamond operator it has to declare the type and 'ArrayList' without diamond operator is considered 'rawtype' and that’s a warning.
+Q16: B, D 'sandal' is eligible for garbage collection but no item guaranteed to be garbage collected.
+Q17: C First line that prevents compiling 'f.getFish();' because 'Fish' class throws an exception which may contain checked exceptions has to be caught or declared. After we catch it(BubbleException) in a try catch block the code compiles and prints a stack trace and 'clown!'.
+Q18: A 'test' method returns 'true' 'if (num < 0)'. Which is only true for '-5' and it gets printed out.
+Q19: F None of the above, a catch or finally is enough.
+Q20: A outer loop will terminate after 1st round in any case ,since result goes down below 7.
+Q21: C In the snap method the 'teeth' that has decreased is not the same with main class's attribute 'teeth', it's the parameter teeth. The Scope of Variables.
+Q22: A String is immutable, concat method cannot change old string it returns a new one.
+Q23: A, C , F The interface body can contain abstract methods, default methods, and static methods. All abstract, default, and static methods in an interface are implicitly public.
+Q24: D '==' is used as a condition in loops or if statements so one '=' was missing
+Q25: B & F Every Class extends Object class implicitly so that they provide basic features which according to Java recommendation every class should have. 
+Q26: D The Class inherits unrelated defaults for 'grow()' from types 'Plant' and 'Living'. If two interfaces contain a method with the same signature but different return types, then it is impossible to implement both the interface simultaneously.According to 'JLS (§8.4.2)' methods with same signature is not allowed in this case.
+Q27: D Throws Error  The local variable 'profit$$$' might not have been initialized.
+Q28: A These operators pre and post decrement or increment operators. Post operator retuns unchanged value to whereever you use it and changes value. Pre operator changes the value before returning it.
+Q29: B, C & E
+B, Super doesnt have no parameter constructor.
+C, Either this or super should be first statement cant have them both.
+D, There are no String, double constructor in "this".
 Q30: E,F: Firstly you should state min and max as static to make static reference to them
 and then you dont have to set min =0 since its default
 Q31: B,E only one right hand side will be evaluated for ternary expressions, 
@@ -23,8 +62,10 @@ Q42: A making changes in values or variable types will ruin everything
 Q43: B a typical sorting for numbers are like "0 01 02 1 10 11 13 20" simple logic
 Q44: D if u make a variable public and static it will be avaible from everywhere without creating instance
 Q45: B if u put 2 for loops inside each other for a list of 2 elements, 2^n lines are printed
-
-
+Q47: C two lines of code compiles without error.
+Q48: B,D,F result in printing 3 to the screen. short can cover parameter type byte while double can cover parameter type float.
+Q49: E Code does not compile due to main method's being non-static. If it was, then answer would be C(Two).
+Q50: D There will be an ArrayOutOfIndex Exception during runtime and it will be caught by first catch block.
 Q51: E "for" loop is designed to be downcounting but its written container++, if it was counter-- then code would compile 
 without any exception.
 Q52: A,E,F Addition to A and F, option E is also possible (final main method).
