@@ -22,6 +22,7 @@ Q41: D it throws some kind of exception due to transformation from array to arra
 Q42: A making changes in values or variable types will ruin everything
 Q43: B a typical sorting for numbers are like "0 01 02 1 10 11 13 20" simple logic
 Q44: D if u make a variable public and static it will be avaible from everywhere without creating instance
+Q45: B if u put 2 for loops inside each other for a list of 2 elements, 2^n lines are printed
 
 
 Q51: E "for" loop is designed to be downcounting but its written container++, if it was counter-- then code would compile 
